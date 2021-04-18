@@ -97,10 +97,10 @@ elif(secim == "2"):
 	os.system("pkg install sqlmap -y")
 	os.system("pkg install perl -y")
 	os.system("apt install urlcrazy")
-        os.system("pkg install ")
+	os.system("pkg install ")
 
 elif(secim=="3"):
-	os.system(" ")
+	print("Güle Güle Dostum")
 
 else:
 	print("Yanlış seçim")
