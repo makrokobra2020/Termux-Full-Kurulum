@@ -23,7 +23,7 @@ yoksa sonuçları deneyip görebilirsiniz :D)
 
 """)
 
-secim = raw_input("Seçim Yapınız: ")
+secim = input("Seçim Yapınız: ")
 
 if(secim =="1"):
 	os.system("pkg install figlet -y")
@@ -106,7 +106,7 @@ else:
 	print("Yanlış seçim")
 
 
-tem = raw_input("""
+tem = input("""
 
 Ekran Temizlensin mi? [Y/n]: """)
 
