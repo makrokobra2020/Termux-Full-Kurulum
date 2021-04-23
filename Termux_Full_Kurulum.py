@@ -1,4 +1,4 @@
-#!usr/bin/env python
+#!usr/bin/env python3
 # -*- coding: utf-8 -*-
  
 
@@ -25,7 +25,7 @@ yoksa sonuçları deneyip görebilirsiniz :D)
 
 secim = input("Seçim Yapınız: ")
 
-if(secim =="1"):
+if secim =="1":
 	os.system("pkg install figlet -y")
 	os.system("apt install figlet -y")
 	os.system("apt install ruby -y")
@@ -54,7 +54,7 @@ if(secim =="1"):
 	os.system("pkg install openssl -y")
 	os.system("apt install nodejs -y")
 
-elif(secim == "2"):
+elif secim == "2":
 	os.system("pkg install figlet -y")
 	os.system("apt install figlet -y")
 	os.system("apt install ruby -y")
@@ -97,10 +97,9 @@ elif(secim == "2"):
 	os.system("pkg install sqlmap -y")
 	os.system("pkg install perl -y")
 	os.system("apt install urlcrazy")
-	os.system("pkg install ")
 
-elif(secim=="3"):
-	print("Güle Güle Dostum")
+elif secim=="3":
+	os.system(" ")
 
 else:
 	print("Yanlış seçim")
@@ -110,10 +109,10 @@ tem = input("""
 
 Ekran Temizlensin mi? [Y/n]: """)
 
-if(tem == "y"):
+if tem == "y":
 	os.system("clear")
 
-elif(tem == "n"):
+elif tem == "n":
 	print("""
 
 Güle Güle""")
